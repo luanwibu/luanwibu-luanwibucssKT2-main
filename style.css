@@ -1,0 +1,118 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  :root {
+    --primary-color: #8CB9BD
+    ;
+    --secondary-color: white;
+    --accent-color: #ecb159;
+    --dark-color: #b67352;
+  }
+  
+ 
+  body {
+    display: flex;
+    justify-content: center;
+    background-color: #FEFBF6;
+    color: #333;
+  }
+  .wrapper {
+    width: 960px;
+    max-width: 100%;
+  }
+
+  /* Header */
+ 
+  header {
+    text-align: center;
+    padding: 20px 0;
+    color: #B67352;
+  }
+  header .site-info h1 {
+    font-size: 2rem;
+    color: #B67352;
+    font-family: 'Pacifico', cursive;
+  }
+  
+  .navbar {
+    background-color: #8CB9BD;
+    padding: 10px 0;
+  }
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 0 15px;
+    font-weight: bolder;
+    
+  }
+  .navbar {
+    text-align: left;
+  }
+
+  /* Main layout */
+  .main {
+    display: flex;
+    margin-top: 20px;
+  }
+  .sidebar {
+    width: 30%;
+    background-color: #ECB159;
+    padding: 20px;
+    color :white;
+  }
+  .sidebar img {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .sidebar h2 {
+    font-family: 'Pacifico', cursive;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    
+  }
+  .sidebar h3 {
+    font-family: 'Pacifico', cursive;
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+  }
+
+  .main-content {
+    width: 70%;
+    padding: 0 20px;
+  }
+  .main-content article {
+    margin-bottom: 20px;
+  }
+
+  /* Hình ảnh và nội dung chính */
+  .main-content img {
+    width: 100%;
+    max-width: 200px;
+    margin-bottom: 20px;
+  }
+  .main-content h2 {
+    color: #B67352;
+    font-weight: bolder;
+    font-family: 'Pacifico', cursive;
+  }
+  .main-content h5 {
+    font-size: 0.9rem;
+    color: var(--primary-color);
+  }
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #FEFBF6;
+    border-top: 1px solid #B67352;
+    color: #B67352;
+  }
+  
+
+
